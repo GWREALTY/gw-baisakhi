@@ -795,7 +795,7 @@
     // Endpoints
     const FORMSPREE   = 'https://formspree.io/f/xdapqovd';
     // Replace the value below with your Google Apps Script Web App URL after deployment
-    const SHEETS_URL  = 'https://script.google.com/macros/s/AKfycbwrJJC3Sgaid7iOL6XlJqMtcDxNRcrVPchvNv4QThGXtw6xlrOVKX2lPSOUzHZsFNvAYA/exec';
+    const SHEETS_URL  = 'https://script.google.com/macros/s/AKfycbykdgE-Owa_6BLbRDBHj7LNtkNjTbxQ0gRhUsFsplmTwYklBTSpob_cGtblzMBrbz3h9w/exec';
 
     // State
     let state = {
@@ -929,7 +929,7 @@
       };
 
       // Send to Google Sheets (fire and forget)
-      if (SHEETS_URL && SHEETS_URL !== 'YOUR_GOOGLE_APPS_SCRIPT_URL_HERE') {
+      if (SHEETS_URL && SHEETS_URL !== 'https://script.google.com/macros/s/AKfycbykdgE-Owa_6BLbRDBHj7LNtkNjTbxQ0gRhUsFsplmTwYklBTSpob_cGtblzMBrbz3h9w/exec') {
         fetch(SHEETS_URL, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
